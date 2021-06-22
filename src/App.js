@@ -24,7 +24,7 @@ const filteredCoins = coins.filter(coin =>
   return (
     <div className="Coin-tracker-App">
       <div className="coin-search">
-        <h1 className='coin-txt'>Search a Crypto</h1>
+        <h1 className='coin-txt'>Search a Cryptocurrency</h1>
         <form>
           <input className='coin-input' type='text' placeholder='Search' onChange={handleChange}/>
         </form>
